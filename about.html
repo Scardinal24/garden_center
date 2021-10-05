@@ -3,48 +3,45 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+          crossorigin="anonymous">
 
-  <!-- CSS Style Sheet. -->
-  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-
-<style>
-    body  {
-        background-color: powderblue;
-    }
-
-    img.center {
-        display: block;
-        margin: 0 auto;
-}
-  </style>
   <title>About the Garden club</title>
 </head>
-
+<div class="container">
 <body>
   <header>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home Page</a>
-        </li>
-
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="tips_tricks.html">Tips & Tricks</a>
-        </li>
-        <li>
-          <a href="tools.html">Tools</a>
-        </li>
-        <li>
-          <a href="seeds.html">Seeds</a>
-        </li>
-        <li>
-          <a href="top_10_plants.html">Top 10 plants for the garden</a>
-        </li>
-      </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Garden Center</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home Page <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="top_10_plants.html">Top 10 Plants for the Garden</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tips_tricks.html">Tips & Tricks</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="tools.html">Tools</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="seeds.html">Seeds</a>
+      </li>
+    </ul>
+  </div>
+</nav>
   </header>
   <!-- Instead of section and article, many developers use the div tag. -->
   <section>
@@ -55,7 +52,7 @@
     <article>
       <h2></h2>
 
-      <p>Welcome to the graden club! Here at the graden club we have everything you need to know about gardens, from tips and tricks to tutorials on how to keep those gradens looking great. We just opened up recently and we wanted to show the people what gardening is all about!</p>
+      <p>Welcome to the graden club! Here at the graden club we have everything you need to know about gardens, from tips and tricks to tutorials on how to keep those gardens looking great. We just opened up recently and we wanted to show the people what gardening is all about!</p>
 
       <p> Here are some of the Gardens we have:</p>
 
@@ -64,12 +61,33 @@
 
    <img src="img/garden2.jpg" width="550" height="400" alt="garden_two">
 
-   <p> These gardens are beautiful and we can help turn your not so good garden into these garden. On our page we have tips and tricks and a list of tools to use.
+   <p> These gardens are beautiful and we can help turn your not so good garden into these garden. On our page we have tips and tricks and a list of tools to use.</p>
 
-    
+   <p> Don't get nervous or scared about all of this information! We got your back and will turn your thumb from blue/red to green in no time</p>
+
+   <div class="card" style="width: 18rem;">
+  <img src="img/homerhedge.gif" class="card-img-top" alt="homer_hedge">
+  <div class="card-body">
+    <h5 class="card-title">Don't hide like Homer</h5>
+    <p class="card-text">With our help, you can come out of the hedges and flex about your garden to your friends!</p>
+    <a href="index.html" class="btn btn-primary">Home Page</a>
+  </div>
+</div>
+
+ </article>
+</div>
+
   </section>
+  <br>
+</br>
   <footer>
       Copyright 2020 by Domnick Miyeng
   </footer>
+  <br>
+</br>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+          crossorigin="anonymous"></script>
+    </script>
 </body>
 </html>
